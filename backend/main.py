@@ -9,7 +9,7 @@ import numpy as np
 
 load_dotenv()
 openai.api_key = os.getenv(
-    "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")
+    "API_KEY")
 
 app = FastAPI()
 
